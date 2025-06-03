@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
 
         <div className="md:w-1/2 flex justify-center mb-8 md:mb-0">
           <img
-            src="https://images.pexels.com/photos/5699424/pexels-photo-5699424.jpeg"
+            src="https://images.pexels.com/photos/5699424/pexels-photo-5699424.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Claritone hearing aid"
             className="w-full max-w-sm rounded-xl shadow-xl"
           />

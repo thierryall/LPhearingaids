@@ -7,7 +7,7 @@ const ComparisonTable: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Compare <span className="text-blue-600">For Yourself</span>
+            Compare <span className="text-primary">For Yourself</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             See how Claritone stacks up against traditional hearing aids and other over-the-counter options.
@@ -19,7 +19,7 @@ const ComparisonTable: React.FC = () => {
             <thead>
               <tr className="bg-gray-50">
                 <th className="py-4 px-6 text-left text-lg font-semibold border-b">Feature</th>
-                <th className="py-4 px-6 text-center text-lg font-semibold border-b text-blue-600">Claritone</th>
+                <th className="py-4 px-6 text-center text-lg font-semibold border-b text-primary">Claritone</th>
                 <th className="py-4 px-6 text-center text-lg font-semibold border-b">Traditional Hearing Aids</th>
                 <th className="py-4 px-6 text-center text-lg font-semibold border-b">Over-the-Counter Devices</th>
               </tr>
