@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --primary: #FF6B00;
+  --primary: #2563EB;
   --secondary: #2563EB;
   --text: #1F2937;
   --text-light: #6B7280;
@@ -22,20 +22,20 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, #FF6B00 0%, #FF8A3D 100%);
+  background: linear-gradient(90deg, #2563EB 0%, #60A5FA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, #FF6B00 0%, #FF8A3D 100%);
+  background: linear-gradient(90deg, #2563EB 0%, #60A5FA 100%);
   transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 6px -1px rgba(255, 107, 0, 0.2), 0 2px 4px -1px rgba(255, 107, 0, 0.1);
+  box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2), 0 2px 4px -1px rgba(37, 99, 235, 0.1);
 }
 
 .testimonial-card {
