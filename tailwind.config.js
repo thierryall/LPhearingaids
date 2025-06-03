@@ -5,18 +5,18 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#2563EB',
-          light: '#60A5FA',
-          dark: '#1D4ED8'
+          DEFAULT: '#6366F1',
+          light: '#A5B4FC',
+          dark: '#4F46E5'
         },
         secondary: {
-          DEFAULT: '#2563EB',
-          light: '#60A5FA',
-          dark: '#1D4ED8'
+          DEFAULT: '#EC4899',
+          light: '#F9A8D4',
+          dark: '#DB2777'
         }
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
       },
       maxWidth: {
         'prose-lg': '75ch',

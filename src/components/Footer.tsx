@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between mb-12">
           <div className="mb-8 md:mb-0">
             <div className="flex items-center mb-4">
-              <Ear className="h-8 w-8 text-blue-400" />
+              <Ear className="h-8 w-8 text-primary-light" />
               <span className="ml-2 text-2xl font-bold text-white">Claritone</span>
             </div>
             <p className="text-gray-400 max-w-xs">

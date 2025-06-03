@@ -17,7 +17,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer, isOpen, onClick }) 
     >
       <span className="text-lg font-medium">{question}</span>
       {isOpen ? (
-        <ChevronUp className="h-5 w-5 text-blue-600 flex-shrink-0" />
+        <ChevronUp className="h-5 w-5 text-primary flex-shrink-0" />
       ) : (
         <ChevronDown className="h-5 w-5 text-gray-500 flex-shrink-0" />
       )}
@@ -63,11 +63,11 @@ const FAQ: React.FC = () => {
   ];
   
   return (
-    <section id="faq" className="py-20 bg-blue-50">
+    <section id="faq" className="py-20 bg-primary-light/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Frequently Asked <span className="text-blue-600">Questions</span>
+            Frequently Asked <span className="text-primary">Questions</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             You might be wondering about these common questions.
