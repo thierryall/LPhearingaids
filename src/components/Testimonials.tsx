@@ -23,6 +23,20 @@ const Testimonials: React.FC = () => {
       age: 63,
       location: "California",
       rating: 5
+    },
+    {
+      quote: "The sound quality is fantastic and the price can't be beat.",
+      author: "Linda W.",
+      age: 58,
+      location: "New York",
+      rating: 5
+    },
+    {
+      quote: "I was skeptical at first but Claritone really works. Highly recommended!",
+      author: "Paul T.",
+      age: 70,
+      location: "Ohio",
+      rating: 5
     }
   ];
 

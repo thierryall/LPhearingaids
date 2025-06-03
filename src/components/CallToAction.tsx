@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { ShieldCheck, Package, Zap } from 'lucide-react';
 
 const CallToAction: React.FC = () => {
+  const [timeLeft, setTimeLeft] = useState<number>(0);
+
+  useEffect(() => {
+    const target = new Date();
+    target.setHours(target.getHours() + 6);
+
+    const interval = setInterval(() => {
+      const diff = target.getTime() - new Date().getTime();
+      setTimeLeft(diff > 0 ? diff : 0);
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const hours = Math.floor(timeLeft / 1000 / 3600);
+  const minutes = Math.floor(timeLeft / 1000 / 60) % 60;
+  const seconds = Math.floor(timeLeft / 1000) % 60;
+
   return (
     <section className="py-16 bg-white">
       <div className="max-w-4xl mx-auto px-4">
@@ -9,9 +27,12 @@ const CallToAction: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Special Limited Time Offer
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-xl text-gray-600 mb-2">
             Order today and save over 50% off retail price
           </p>
+          <div className="text-red-600 font-semibold">
+            Offer ends in {hours}h {minutes}m {seconds}s
+          </div>
         </div>
 
         <div className="bg-gray-50 rounded-2xl p-8 mb-12">
