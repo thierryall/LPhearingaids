@@ -1,2 +1,2 @@
 # LPhearingaids
-Lamding page for hearing aids
+Landing page for hearing aids
